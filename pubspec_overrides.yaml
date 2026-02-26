@@ -1,0 +1,8 @@
+# melos_managed_dependency_overrides: openim_common
+dependency_overrides:
+  openim_common:
+    path: openim_common
+  openim_live:
+    path: openim_live
+  flutter_webrtc: 1.1.0
+#  flutter_webrtc: 0.14.2

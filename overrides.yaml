@@ -1,0 +1,14 @@
+# Central dependency overrides for all subpackages
+# These will be synced to each package's pubspec_overrides.yaml
+# Usage: Run `dart run tool/sync_versions.dart` to apply overrides
+
+# Example overrides:
+# flutter_webrtc: 1.2.1
+# some_package:
+#   git:
+#     url: https://github.com/example/repo.git
+#     ref: main
+
+# Higher versions of WebRTC will crash on iOS 15.
+flutter_webrtc: 1.1.0
+#flutter_webrtc: 0.14.2
